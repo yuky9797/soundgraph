@@ -24,6 +24,8 @@ class ofApp : public ofxiOSApp {
         void deviceOrientationChanged(int newOrientation);
     
     ofSoundPlayer soundone;
+    int getprecision=1;
+    float * volumeone;
     void audioin(float *input,int buffersize, int channels);
     vector<float>left;
     ofSoundStream soundstream;
